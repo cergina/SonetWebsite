@@ -1,0 +1,75 @@
+body {
+    /* The image used */
+    background-image: url("../content/images/pozadie_sonet_web.jpg");
+  
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* this color is precisely  set to what is on bottom of background, 
+    dont change or i will do something to you*/
+    background-color: #0F2233;
+  }
+
+
+#mainWindow {
+  padding-top: 5em;
+}
+
+#TeamMembers {
+  backdrop-filter: blur(15px);
+}
+
+.list-group-item a {
+  color:black;
+  font-weight: 500;
+}
+
+.team-members-list{
+  padding: 1em
+}
+
+.member-avatar{
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  display: block; /* remove extra space below image */
+}
+
+.jumbotron {
+  color: white;
+  background-color: rgb(93, 159, 209, 0.5);
+  border-radius: 1rem;
+}
+
+.articleOnWeb {
+  display: block;
+	position: relative;
+	width: 80rem;
+	max-width: 100%;
+	background-color: rgba(27, 31, 34, 0.85);
+  border-radius: 1rem;
+  padding: 2.5rem;
+}
+
+.font25 {
+  font-size: 25px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  font-size: 0.75em;
+  margin-bottom: 0;
+}
+
+.center {
+  padding-top: 50px;
+  top: 50%;
+  align-items: center;
+}
